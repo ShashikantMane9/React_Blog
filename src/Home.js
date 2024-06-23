@@ -36,7 +36,7 @@ const Home = () => {
           {isLoading && <div>Loading...</div>}  
 
         {/* if data is not null then blog component will visible */}  
-          {blogs &&  <BlogList blogs={blogs} title="All Blogs : "/>}
+          {blogs &&  <BlogList blogs={blogs} title="Blogs : "/>}
             {/* <p>{name}</p> */}
            {/* <BlogList blogs={blogs.filter((blog) => blog.auther === 'SM')} title="SM's Blogs : "/> */}
      
